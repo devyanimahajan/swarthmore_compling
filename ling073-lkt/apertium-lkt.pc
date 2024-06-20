@@ -1,0 +1,8 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+srcdir=${prefix}/share/apertium/apertium-lkt
+
+Name: apertium-lkt
+Description: Finite-state morphological transducer and constraint grammar for Lakota
+Version: 0.1.0
+

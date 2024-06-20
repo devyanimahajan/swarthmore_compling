@@ -1,0 +1,1 @@
+lt-proc -w '/home/dmahaja1/ling73-s22/ling073-lkt/lkt.automorf.bin' | cg-conv -a | vislcg3 --trace --grammar '/home/dmahaja1/ling73-s22/ling073-lkt/lkt.rlx.bin'

@@ -1,0 +1,65 @@
+Alphabet
+ A Á B C Č D E É G Ǧ H Ȟ I Í K L M N Ŋ O Ó P S Š T U Ú V W Y Z Ž
+ a á b c č d e é g ǧ h ȟ i í k l m n ŋ o ó p s š t u ú v w y z ž
+
+ %{A%}:a %>:0
+
+ %{L1%}:0 %{infx%}:0
+ %{L2%}:0
+ %{L3%}:0
+ %{L4%}:0 ;
+
+Sets
+
+Vowel = A Á E É I Í O Ó U Ú 
+        a á e é i í o ó u ú ;
+
+Letters = A Á B C Č D E É G Ǧ H Ȟ I Í K L M N Ŋ O Ó P S Š T U Ú V W Y Z Ž
+          a á b c č d e é g ǧ h ȟ i í k l m n ŋ o ó p s š t u ú v w y z ž;
+
+Cons = B C Č D G Ǧ H Ȟ K L M N Ŋ P S Š T V W Y Z Ž
+       b c č d g ǧ h ȟ k l m n ŋ p s š t v w y z ž;
+
+Rules
+
+"Remove suffix vowel with vowel-ending stem"
+i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+
+"Deletion rule"
+Lx:0 <=> %{infx%}: %>: _ ;
+              %{infx%}: %>: Cons: _ ;
+              %{infx%}: %>: Cons: Vowel: _ Cons: ;
+              where Lx in Letters ;
+
+"First letter movement rule"
+%{L1%}:Ly <=> _ [ : - %{infx%}: ]* %{infx%}: %>: Lx: ;
+              where Lx in Letters
+                    Ly in Letters
+              matched ;
+
+"Second letter movement rule"
+%{L2%}:Ly <=> _ [ : - %{infx%}: ]* %{infx%}: %>: Cons: Lx: ;
+              where Lx in Letters
+                    Ly in Letters
+              matched ;
+
+"Third letter movement rule"
+%{L3%}:Ly <=> _ [ : - %{infx%}: ]* %{infx%}: %>: Cons: Vowel: Lx: Cons: ;
+              where Lx in Letters
+                    Ly in Letters
+              matched ;
+
+!"Fourth letter movement rule"
+!%{L4%}:Ly <=> _ [ : - %{infx%}: ]* %{infx%}: %>: Lx: ;
+!              where Lx in Letters
+!                    Ly in Letters
+!              matched ;
+
+
+
+! Resources:
+! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! https://github.com/hfst/
+! https://wiki.apertium.org/wiki/Twol
+! https://wiki.apertium.org/wiki/Hfst

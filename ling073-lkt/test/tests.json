@@ -1,0 +1,10 @@
+{
+    "analysis": {
+        "input": "analysis-input.txt",
+        "mode": "lkt-disam"
+    },
+    "generation": {
+        "input": "generation-input.txt",
+        "mode": "lkt-gener"
+    }
+}

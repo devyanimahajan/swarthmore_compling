@@ -1,0 +1,9 @@
+lkt.news.woihanble.txt - contains news from Woihanble website, acquired on 2022-01-31, copyright Woihanble.
+lkt.bible.mark.txt - contains a bible passage from The Book of Mark from Bible.com, acquired on 2022-01-31, no copyright.
+lkt.story.originofthenameoglala.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).
+lkt.story.thebuffalopeople.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).
+lkt.story.anoldtimecustomatmeals.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).
+lkt.story.atypicalkiddingbetweenbrothersinlaw.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).
+lkt.story.walega-hoksila.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).
+lkt.story.geoschmidtsvisionexperience.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).
+lkt.story.speechatathanksgivingdinner.txt - contains a story from the American Philosophical Society Library, acquired on 2022-01-31, copyright reserved (Ella C. Deloria).

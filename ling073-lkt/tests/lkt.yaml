@@ -1,0 +1,181 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../lkt.autogen.hfst
+    Morph: ../lkt.automorf.hfst
+Tests:
+  Active and Stative Verbs:
+    máni<v><av><pres><s_du1>:
+    - uŋmáni
+    máni<v><av><pres><s_pl1>:
+    - uŋmánipi
+    máni<v><av><pres><s_pl2>:
+    - mayánipi
+    máni<v><av><pres><s_pl3>:
+    - mánipi
+    máni<v><av><pres><s_sg1>:
+    - mawáni
+    máni<v><av><pres><s_sg2>:
+    - mayáni
+    máni<v><av><pres><s_sg3>:
+    - máni
+    watúkȟa<v><sv><pres><s_du1>:
+    - uŋwatúkȟa
+    watúkȟa<v><sv><pres><s_pl1>:
+    - uŋwatúkȟapi
+    watúkȟa<v><sv><pres><s_pl2>:
+    - niwatúkȟapi
+    watúkȟa<v><sv><pres><s_pl3>:
+    - watúkȟapi
+    watúkȟa<v><sv><pres><s_sg1>:
+    - mawatúkȟa
+    watúkȟa<v><sv><pres><s_sg2>:
+    - niwatúkȟa
+    watúkȟa<v><sv><pres><s_sg3>:
+    - watúkȟa
+  Adverbs: {}
+  Articles:
+    kiŋ<det><def>:
+    - kiŋ
+    waŋ<det><ind>:
+    - waŋ
+  Conjunctions:
+    k’éyaš<cnjcoo>:
+    - k’éyaš
+    na<cnjcoo>:
+    - na
+    yuŋkȟáŋ<cnjcoo>:
+    - yuŋkȟáŋ
+    čhaŋké<cnjcoo>:
+    - čhaŋké
+  Demonstratives:
+    hé<prn><dem><du>:
+    - henáos
+    hé<prn><dem><pl>:
+    - hená
+    hé<prn><dem><sg>:
+    - hé
+    ká<prn><dem><du>:
+    - kanáos
+    ká<prn><dem><pl>:
+    - kaná
+    ká<prn><dem><sg>:
+    - ká
+    lé<prn><dem><du>:
+    - lenáos
+    lé<prn><dem><pl>:
+    - lená
+    lé<prn><dem><sg>:
+    - lé
+  Infinitive Verbs:
+    heyÁ<v><tv><pres><inf>:
+    - heyÁ
+    ičháǧA<v><av><pres><inf>:
+    - ičháǧA
+    ičú<v><av><pres><inf>:
+    - ičú
+    ištíŋmA<v><av><pres><inf>:
+    - ištíŋmA
+    k'ú<v><tv><pres><inf>:
+    - k'ú
+    lol'iȟ'aŋ<v><av><pres><inf>:
+    - lol'iȟ'aŋ
+    oyúspe<v><tv><pres><inf>:
+    - oyúspe
+    watúkȟa<v><sv><pres><inf>:
+    - watúkȟa
+    ípuzA<v><sv><pres><inf>:
+    - ípuzA
+    íyotakA<v><av><pres><inf>:
+    - íyotakA
+    íŋyaŋkA<v><av><pres><inf>:
+    - íŋyaŋkA
+    čhéyA<v><av><pres><inf>:
+    - čhéyA
+    škátA<v><av><pres><inf>:
+    - škátA
+  Nouns:
+    bló<n>:
+    - bló
+    igmú<n>:
+    - igmú
+    isákhib<n>:
+    - isákhib
+    magáju<n>:
+    - magáju
+    maká<n>:
+    - maká
+    mniwáŋca<n>:
+    - mniwáŋca
+    míla<n>:
+    - míla
+    pšíŋ<n>:
+    - pšíŋ
+    pȟanȟté<n>:
+    - pȟanȟté
+    pȟasù<n>:
+    - pȟasù
+    skelúta<n>:
+    - skelúta
+    tȟahù<n>:
+    - tȟahù
+    tȟaspáŋ<n>:
+    - tȟaspáŋ
+    wanúŋ<n>:
+    - wanúŋ
+    waskúyeca<n>:
+    - waskúyeca
+    waŋyéca<n>:
+    - waŋyéca
+    wažúšteča<n>:
+    - wažúšteča
+    wówapi<n>:
+    - wówapi
+    wóyazaŋ<n>:
+    - wóyazaŋ
+    ziŋtkázi<n>:
+    - ziŋtkázi
+    zíškopela<n>:
+    - zíškopela
+    úta<n>:
+    - úta
+    čhuŋwíyapehe<n>:
+    - čhuŋwíyapehe
+    šún<n>:
+    - šún
+  Parts of Speech: {}
+  Postpositions:
+    akáŋl<post>:
+    - akáŋl
+    isákhib<post>:
+    - isákhib
+    itȟókab<post>:
+    - itȟókab
+    oȟláthe<post>:
+    - oȟláthe
+    él<post>:
+    - él
+  Transitive:
+    waŋyáŋkA<v><tv><pres><s_pl1><o_pl1>:
+    - uŋwaŋyáŋkepi
+    waŋyáŋkA<v><tv><pres><s_pl2><o_pl2>:
+    - niwaŋyáŋkepi
+    waŋyáŋkA<v><tv><pres><s_pl3><o_pl3>:
+    - waŋwíčhayaŋkA
+    waŋyáŋkA<v><tv><pres><s_sg1><o_sg1>:
+    - mawaŋyáŋkA
+    waŋyáŋkA<v><tv><pres><s_sg2><o_sg2>:
+    - niwaŋyáŋkA
+    waŋyáŋkA<v><tv><pres><s_sg3><o_sg3>:
+    - waŋyáŋkA
+  Use of Postpositions:
+    mas'óphiye<n> (store):
+    - mas'óphiye él
+  Verb Conjugations: {}
+  Verbs:
+    máni<v><av><pres><inf>:
+    - máni
+    waŋyáŋkA<v><tv><pres><inf>:
+    - waŋyáŋkA
+    šíčA<v><sv><pres><inf>:
+    - šíčA
