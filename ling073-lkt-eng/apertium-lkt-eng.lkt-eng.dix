@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+  <alphabet>AÁBCČDEÉGǦHȞIÍKLMNŊOÓPSŠTUÚVWYZŽaábcčdeégǧhȟiíklmnŋoópsštuúvwyzž</alphabet>
+
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="Noun"/>
+    <sdef n="v"               c="Verb"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+   <section id="main" type="standard">
+      <!-- Define entries within <e> here. -->
+      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+
+      <e><p><l>čhaŋnúŋpa<s n="n"/></l><r>pipe<s n="n"/></r></p></e>
+      <e><p><l>wakȟáŋ<s n="n"/></l><r>sacred<s n="n"/></r></p></e>
+      <e><p><l>Tȟatȟaŋka<s n="n"/></l><r>people of the Buffalo Nation<s n="n"/></r></p></e>
+      <e><p><l>kiŋ<s n="det"/></l><r>the<s n="det"/></r></p></e>
+      <e><p><l>lé<s n="dem"/></l><r>this<s n="dem"/></r></p></e>
+      <e><p><l>hé<s n="dem"/></l><r>this<s n="dem"/></r></p></e>
+      <e><p><l>ká<s n="dem"/></l><r>that<s n="dem"/></r></p></e>
+      <e><p><l>ištíŋmA<s n="v"/></l><r>sleep<s n="v"/></r></p></e>
+      <e><p><l>máni<s n="v"/></l><r>walk<s n="v"/></r></p></e>
+      <e><p><l>íyotakA<s n="v"/></l><r>sit<s n="v"/></r></p></e>
+      <e><p><l>čhéyA<s n="v"/></l><r>cry<s n="v"/></r></p></e>
+      <e><p><l>ípuzA<s n="v"/></l><r>thirsty<s n="v"/></r></p></e>
+      <e><p><l>heyÁ<s n="v"/></l><r>say<s n="v"/></r></p></e>
+      <e><p><l>lol'iȟ'aŋ<s n="v"/></l><r>cook<s n="v"/></r></p></e>
+      <e><p><l>íŋyaŋkA<s n="v"/></l><r>run<s n="v"/></r></p></e>
+      <e><p><l>škátA<s n="v"/></l><r>play<s n="v"/></r></p></e>
+      <e><p><l>ičháǧA<s n="v"/></l><r>grow<s n="v"/></r></p></e>
+      <e><p><l>watúkȟa<s n="v"/></l><r>tired<s n="v"/></r></p></e>
+      <e><p><l>šún<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+      <e><p><l>pȟasù<s n="n"/></l><r>nose<s n="n"/></r></p></e>
+      <e><p><l>tȟahù<s n="n"/></l><r>neck<s n="n"/></r></p></e>
+      <e><p><l>pȟanȟté<s n="n"/></l><r>forehead<s n="n"/></r></p></e>
+      <e><p><l>igmú<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+      <e><p><l>maká<s n="n"/></l><r>skunk<s n="n"/></r></p></e>
+      <e><p><l>čhuŋwíyapehe<s n="n"/></l><r>grapes<s n="n"/></r></p></e>
+      <e><p><l>tȟaspáŋ<s n="n"/></l><r>apple<s n="n"/></r></p></e>
+      <e><p><l>zíškopela<s n="n"/></l><r>banana<s n="n"/></r></p></e>
+      <e><p><l>wažúšteča<s n="n"/></l><r>strawberry<s n="n"/></r></p></e>
+      <e><p><l>bló<s n="n"/></l><r>potato<s n="n"/></r></p></e>
+      <e><p><l>pšíŋ<s n="n"/></l><r>onion<s n="n"/></r></p></e>
+      <e><p><l>wanúŋ<s n="n"/></l><r>accident<s n="n"/></r></p></e>
+      <e><p><l>wóyazaŋ<s n="n"/></l><r>pain<s n="n"/></r></p></e>
+      <e><p><l>úta<s n="n"/></l><r>acorn<s n="n"/></r></p></e>
+      <e><p><l>ziŋtkázi<s n="n"/></l><r>canary<s n="n"/></r></p></e>
+      <e><p><l>mniwáŋca<s n="n"/></l><r>ocean<s n="n"/></r></p></e>
+      <e><p><l>waŋyéca<s n="n"/></l><r>firefly<s n="n"/></r></p></e>
+      <e><p><l>magáju<s n="n"/></l><r>rain<s n="n"/></r></p></e>
+      <e><p><l>skelúta<s n="n"/></l><r>oriole<s n="n"/></r></p></e>
+      <e><p><l>míla<s n="n"/></l><r>knife<s n="n"/></r></p></e>
+      <e><p><l>waskúyeca<s n="n"/></l><r>jam<s n="n"/></r></p></e>
+      <e><p><l>wówapi<s n="n"/></l><r>book<s n="n"/></r></p></e>
+      <e><p><l>isákhib<s n="n"/></l><r>pencil<s n="n"/></r></p></e>
+      <e><p><l>k’éyaš<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+      <e><p><l>čhaŋké<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>yuŋkȟáŋ<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>waŋ<s n="det"/></l><r>a<s n="det"/></r></p></e>
+      <e><p><l>k'ú<s n="v"/></l><r>give<s n="v"/></r></p></e>
+      <e><p><l>ičú<s n="v"/></l><r>take<s n="v"/></r></p></e>
+      <e><p><l>oyúspe<s n="v"/></l><r>catch<s n="v"/></r></p></e>
+      <e><p><l>yaŋkÁ<s n="v"/></l><r>sit<s n="v"/></r></p></e>
+      <e><p><l>wíyuskite<s n="n"/></l><r>bandage<s n="n"/></r></p></e>
+      <e><p><l>icábu<s n="n"/></l><r>drumstick<s n="n"/></r></p></e>
+      <e><p><l>masóphiye<s n="n"/></l><r>store<s n="n"/></r></p></e>
+      <e><p><l>waŋyáŋkA<s n="v"/></l><r>look<s n="v"/></r></p></e>
+
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+   </section>
+</dictionary>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/Bilingual_dictionary
+    https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+    https://wiki.apertium.org/wiki/List_of_symbols
+-->
