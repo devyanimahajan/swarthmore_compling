@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+  <!--
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
+    Add your own rules within <rule> here, using the resources below as a guide
+  -->
+
+  <rule>
+    <match lemma="wind"/>
+    <match lemma="power" tags="n.*">
+      <select lemma="energía" tags="n.*"/>
+    </match>
+  </rule>
+
+
+  <rule>
+    <!--
+      This rule chooses "daylight's sun" as the translation of "iyohlateya"
+      when it is preceded by "anpa wi kin".
+    -->
+    <match lemma ="anpa"/>
+    <match lemma = "wi"/>
+    <match lemma = "kin" tags="det.*"/>
+    <match lemma ="iyohlateya" tags="n">
+        <select lemma="daylight's sun" tags="n"/>
+    </match>
+  </rule>
+    <!--
+      This rule chooses "moon of the night" as the translation of "iyohlateya"
+      when it is preceded by "hanye wi kin".
+    -->
+  <rule>
+    <match lemma ="hanye"/>
+    <match lemma = "wi"/>
+    <match lemma = "kin" tags="det.*"/>
+    <match lemma ="iyohlateya" tags="n">
+        <select lemma="moon of the night" tags="n"/>
+    </match>
+  </rule>
+
+    <!--
+      This rule chooses "I have come" as the translation of "wauwelo"
+      when it is preceded by "Ociciyankinkta ca he".
+    -->
+  <rule>
+    <match lemma ="ociciyankinkta"/>
+    <match lemma = "ca"/>
+    <match lemma = "he" tags="dem.*"/>
+    <match lemma ="wauwelo" tags="v">
+        <select lemma="I have come" tags="v"/>
+    </match>
+  </rule>
+
+</rules>
+
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    https://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    https://wiki.apertium.org/wiki/Lexical_selection
+    https://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->

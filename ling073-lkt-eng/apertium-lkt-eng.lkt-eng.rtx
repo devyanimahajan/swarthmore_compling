@@ -1,0 +1,52 @@
+!!!!!!!!!!!!!!!
+!! ATTRIBUTE CATEGORIES
+!!!!!!!!!!!!!!!
+
+number = (ND sg) sg pl sp ND;
+gender = (GD m) m f mf GD;
+det_type = def ind dem itg;
+person = (PD p3) p1 p2 p3 PD;
+transitivity = av sv tv;
+
+!!!!!!!!!!!!!!!
+!! OUTPUT PATTERNS
+!!!!!!!!!!!!!!!
+
+n: _.number;
+adj: _.gender.number;
+det_default: _.det_type;
+det_def: _.det_type.number;
+v: _.transitivity.person;
+
+
+NP: _.number;
+VP: _.transitivity.person;
+
+!!!!!!!!!!!!!!!
+!! TAG-REWRITE RULES
+!!!!!!!!!!!!!!!
+
+tense > tense : ifi past, pri pres, fti fut;
+
+!!!!!!!!!!!!!!!
+!! MACROS
+!!!!!!!!!!!!!!!
+
+det: (if (1.det_type = def or 1.det_type = ind)
+         1(det_def)
+      else
+         1(det_default));
+
+!!!!!!!!!!!!!!!
+!! REDUCTION RULES
+!!!!!!!!!!!!!!!
+
+NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+NP -> %n { %1 } ;
+NP -> adj n {2 _ 1};
+
+
+! Resources:
+! https://wiki.apertium.org/wiki/Apertium-recursive
+! https://wiki.apertium.org/wiki/Apertium-recursive/Formalism
+! https://wiki.apertium.org/wiki/Apertium-recursive/Cookbook
