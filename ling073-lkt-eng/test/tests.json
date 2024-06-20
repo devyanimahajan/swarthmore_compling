@@ -1,0 +1,10 @@
+{
+    "lkt-eng": {
+        "input": "lkt-eng-input.txt",
+        "mode": "lkt-eng"
+    },
+    "eng-lkt": {
+        "input": "eng-lkt-input.txt",
+        "mode": "eng-lkt"
+    }
+}
